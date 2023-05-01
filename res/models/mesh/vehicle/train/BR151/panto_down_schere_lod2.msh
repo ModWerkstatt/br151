@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 6120,
+					offset = 48864,
+				},
+				position = {
+					count = 6120,
+					offset = 42744,
+				},
+				tangent = {
+					count = 6120,
+					offset = 30504,
+				},
+				uv0 = {
+					count = 6120,
+					offset = 36624,
+				},
+			},
+			materials = {
+				"vehicle/train/BR151/151_panto.002.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 4668,
+			numComp = 3,
+			offset = 25836,
+		},
+		position = {
+			count = 3876,
+			numComp = 3,
+			offset = 21960,
+		},
+		tangent = {
+			count = 14368,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 7592,
+			numComp = 2,
+			offset = 14368,
+		},
+	},
+}
+end

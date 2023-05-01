@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 39648,
+					offset = 252580,
+				},
+				position = {
+					count = 39648,
+					offset = 212932,
+				},
+				tangent = {
+					count = 39648,
+					offset = 133636,
+				},
+				uv0 = {
+					count = 39648,
+					offset = 173284,
+				},
+			},
+			materials = {
+				"vehicle/train/BR151/151_innen.001.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 27984,
+			numComp = 3,
+			offset = 105652,
+		},
+		position = {
+			count = 36996,
+			numComp = 3,
+			offset = 68656,
+		},
+		tangent = {
+			count = 55680,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 12976,
+			numComp = 2,
+			offset = 55680,
+		},
+	},
+}
+end

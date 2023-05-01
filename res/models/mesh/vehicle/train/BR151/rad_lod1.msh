@@ -1,0 +1,54 @@
+function data()
+return {
+	matConfigs = {
+		{ 0, }, 
+	},
+	subMeshes = {
+		{
+			indices = {
+				normal = {
+					count = 4704,
+					offset = 26808,
+				},
+				position = {
+					count = 4704,
+					offset = 22104,
+				},
+				tangent = {
+					count = 4704,
+					offset = 12696,
+				},
+				uv0 = {
+					count = 4704,
+					offset = 17400,
+				},
+			},
+			materials = {
+				"vehicle/train/BR151/151_bogie.007.mtl", 
+			},
+		}, 
+	},
+	vertexAttr = {
+		normal = {
+			count = 2208,
+			numComp = 3,
+			offset = 10488,
+		},
+		position = {
+			count = 2736,
+			numComp = 3,
+			offset = 7752,
+		},
+		tangent = {
+			count = 6384,
+			numComp = 4,
+			offset = 0,
+		},
+		uv0 = {
+			count = 1368,
+			numComp = 2,
+			offset = 6384,
+		},
+	},
+}
+end
