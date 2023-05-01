@@ -1,11 +1,12 @@
 function data()
 return {
 	en = {
+
 		["mod_name"] = "DB Class 151",
 		["mod_desc"] = "The 151 series is a series of heavy freight locomotives. As the successor to the 150 series, they pull heavier trains at higher speeds. Built from 1972, the housing borrowed from the BR 103 and many components from the tried-and-tested standard series. The locomotives were the heaviest six-axle freight locomotives of the Deutsche Bundesbahn and are the only six-axled engines which are still in service in Germany.",
 
-		["br151_menu"] = "Class 151",
-		["br151_name"] = "Class 151",
+		["br151_menu"] = "DB Class 151",
+		["br151_name"] = "DB Class 151",
         ["br151_front_name"] = "Class 151 front panto",
         ["br151_doppel_name"] = "Class 151 double traction",
         ["br151_doppel_ak69e_name"] = "Class 151 with AK69e unicoupler",
@@ -22,8 +23,10 @@ return {
         ["br151_hector_desc"] = "The Hectorrail took over 15 class 151 locomotives, 10 are in active use and the rest are kept as spare parts dispensers.",
         ["br151_egp_desc"] = "The Eisenbahngesellschaft Potsdam (EGP) has also bought some of the engines and uses them in their blue design.",
         ["br151_AK69e_desc"] = "Two series 151 machines in double traction with AK69e coupling. This is a medium buffer coupling that allows much higher tensile forces than conventional screw couplings. Since 1976 some engines were equipped with these couplers. These are still used by DB Cargo for ore transports.",
+
 	},
 	de = {
+
 		["mod_name"] = "DB BR 151",
 		["mod_desc"] = "Die Baureihe 151 ist eine Baureihe von schweren Güterzuglokomotiven. Als Nachfolger für die Baureihe 150 ziehen sie schwerere Züge mit höheren Geschwindigkeiten. Gebaut ab 1972 hat das Gehäuse Anleihen aus der BR 103 und viele Komponenten aus den bewährten Einheitsbaureihen. Die Loks waren die schwersten sechsachsigen Güterzuglokomotiven der Deutschen Bundesbahn und sind die letzten Sechsachser, die regulär im Einsatz sind.",
 
@@ -45,6 +48,7 @@ return {
         ["br151_hector_desc"] = "Die Hectorrail übernahm 15 Lokomotiven der Baureihe 151, von denen sich 10 im aktiven Einsatz befinden und der Rest als Ersatzteilspender vorgehalten werden.",
         ["br151_egp_desc"] = "Die Eisenbahngeselltschaft Potsdam (EGP) hat auch einige dieser Loks erworben und setzt sie im blauen Design ein.",
         ["br151_AK69e_desc"] = "Zwei Maschinen der Baureihe 151 in Doppeltraktion mit AK69e-Kupplung. Dies ist eine Mittelpufferkupplung, die wesentlich höhere Zugkräfte zuläßt als die herkömmlichen Schraubenkupplungen. Seit 1976 wurden einige Loks damit ausgerüstet. Diese werden bis heute bei DB Cargo bei Erztransporten eingesetzt.",
+
 	},
 }
 end
