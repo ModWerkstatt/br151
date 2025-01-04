@@ -1,53 +1,47 @@
 function data()
 return {
-	matConfigs = {
-		{ 0, }, 
-	},
 	subMeshes = {
 		{
 			indices = {
 				normal = {
 					count = 146160,
-					offset = 359432,
+					offset = 1480164,
 				},
 				position = {
 					count = 146160,
-					offset = 797912,
+					offset = 1187844,
 				},
 				tangent = {
 					count = 146160,
-					offset = 505592,
+					offset = 1626324,
 				},
 				uv0 = {
 					count = 146160,
-					offset = 651752,
+					offset = 1334004,
 				},
 			},
-			materials = {
-				"vehicle/train/BR151/151_innen.mtl", 
-			},
-		}, 
+		},
 	},
 	vertexAttr = {
 		normal = {
-			count = 80664,
+			count = 438480,
+			numComp = 3,
+			offset = 164724,
+		},
+		position = {
+			count = 94260,
 			numComp = 3,
 			offset = 0,
 		},
-		position = {
-			count = 93384,
-			numComp = 3,
-			offset = 266048,
-		},
 		tangent = {
-			count = 161792,
+			count = 584640,
 			numComp = 4,
-			offset = 80664,
+			offset = 603204,
 		},
 		uv0 = {
-			count = 23592,
+			count = 70464,
 			numComp = 2,
-			offset = 242456,
+			offset = 94260,
 		},
 	},
 }
