@@ -208,12 +208,6 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br151/rumpf_co.mtl", },
-						mesh = "vehicle/train/br151/antenne_lod0.msh",
-						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
 						materials = { "vehicle/train/br151/unterbau.mtl", },
 						mesh = "vehicle/train/br151/kupplung_lod0.msh",
 						name = "rumpf",
