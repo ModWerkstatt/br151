@@ -35,7 +35,7 @@ return {
 				key = "br151_privatbahn",
 				name = _("br151_privatbahn"),
 				values = { "No", "Yes", },
-				tooltip = _("option_br151_privatbahn_desc"),				
+				tooltip = _("option_privatbahn_br151_desc"),				
 				defaultIndex = 1,
 			},
         },
