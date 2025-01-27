@@ -644,10 +644,10 @@ return {
 			configs = {
 				{
 					axles = { "vehicle/train/br151/rad_lod0.msh", },
-					backBackwardParts = { 28, 15, 16, },
 					backForwardParts = { 26, 17, 18, },
-					frontBackwardParts = { 25, 19, 20, },
-					frontForwardParts = { 27, 13, 14, },
+					backBackwardParts = { 28, 15, 16, },
+					frontForwardParts = { 25, 13, 14, },
+					frontBackwardParts = { 27, 19, 20, },
 					innerBackwardParts = { 23, 24, },
 					innerForwardParts = { 21, 22, },
 				},
