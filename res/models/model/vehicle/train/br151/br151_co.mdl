@@ -680,7 +680,7 @@ return {
 				},
 			},
 			soundSet = { name = "train_electric_modern", },
-			topSpeed = 38.8889,
+			topSpeed = 33.3333,
 			weight = 84,
 		},
 		transportVehicle = {
