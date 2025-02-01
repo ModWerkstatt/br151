@@ -215,7 +215,7 @@ return {
 					},
 					{
 						materials = { "vehicle/train/br151/unterbau.mtl", },
-						mesh = "vehicle/train/br151/puffer_eckig_lod0.msh",
+						mesh = "vehicle/train/br151/puffer_rund_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
