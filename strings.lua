@@ -64,13 +64,14 @@ return {
         ["br151_ob_name"] = 	"BR 151 ozeanblau/beige (1978)",
         ["br151_ob2_name"] = 	"BR 151 ozeanblau/beige DB Keks himbeerrot (1987)",
         ["br151_ob3_name"] = 	"BR 151 ozeanblau/beige DB AG (1994)",		
-        ["br151_or_name"] = 	"BR 151 orientrot (1987)",
-        ["br151_or2_name"] = 	"BR 151 orientrot DB AG (1994)",
-				
+        ["br151_or_name"] = 	"BR 151 orientrot (1987)",	
+        ["br151_or2_name"] = 	"BR 151 orientrot 2 (1987)",
+        ["br151_or3_name"] = 	"BR 151 orientrot DB AG (1994)",	
+        ["br151_or4_name"] = 	"BR 151 orientrot DB AG mit UIC Nummer (2009)",				
         ["br151_vr_name"] = 	"BR 151 verkehrsrot DB AG (1998)",
-        ["br151_vr_name"] = 	"BR 151 verkehrsrot DB AG (1998)",
-        ["br151_vr_name"] = 	"BR 151 verkehrsrot DB AG (1998)",
-        ["br151_vr_name"] = 	"BR 151 verkehrsrot DB AG (1998)",
+        ["br151_vr2_name"] = 	"BR 151 verkehrsrot DB AG (1998)",
+        ["br151_vr3_name"] = 	"BR 151 verkehrsrot DB AG (1998)",
+        ["br151_vr4_name"] = 	"BR 151 verkehrsrot DB AG (1998)",
 		
 		
 		
