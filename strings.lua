@@ -69,9 +69,14 @@ return {
         ["br151_or3_name"] = 	"BR 151 orientrot DB AG (1994)",	
         ["br151_or4_name"] = 	"BR 151 orientrot DB AG mit UIC Nummer (2009)",				
         ["br151_vr_name"] = 	"BR 151 verkehrsrot DB AG (1998)",
-        ["br151_vr2_name"] = 	"BR 151 verkehrsrot DB AG (1998)",
-        ["br151_vr3_name"] = 	"BR 151 verkehrsrot DB AG (1998)",
-        ["br151_vr4_name"] = 	"BR 151 verkehrsrot DB AG (1998)",
+        ["br151_vr2_name"] = 	"BR 151 verkehrsrot DB AG mit UIC Nummer (2009)",
+        ["br151_vr3_name"] = 	"BR 151 verkehrsrot DB Cargo (1999)",
+        ["br151_vr4_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
+        ["br151_vr5_name"] = 	"BR 151 verkehrsrot Ralion Logistics (2007)",
+		
+        ["br151_vr6_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
+        ["br151_vr7_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
+        ["br151_vr8_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
 		
 		
 		
