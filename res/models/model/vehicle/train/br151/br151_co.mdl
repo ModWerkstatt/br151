@@ -16,6 +16,12 @@ return {
 			node = {
 				children = {
 					{
+						materials = { "vehicle/train/br151/rumpf_co.mtl", },
+						mesh = "vehicle/train/br151/rumpf_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
 						materials = { "vehicle/train/br151/unterbau.mtl", },
 						mesh = "vehicle/train/br151/unterbau_lod0.msh",
 						name = "unterbau",
@@ -83,12 +89,6 @@ return {
                     },
 					{
 						materials = { "vehicle/train/br151/rumpf_co.mtl", },
-						mesh = "vehicle/train/br151/rumpf_lod0.msh",
-						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/rumpf_co.mtl", },
 						mesh = "vehicle/train/br151/panto_schere_up_lod0.msh",
 						name = "panto_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
@@ -109,25 +109,13 @@ return {
 						materials = { "vehicle/train/br151/rumpf_co.mtl", },
 						mesh = "vehicle/train/br151/panto_schere_down_lod0.msh",
 						name = "panto",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/rumpf_co.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_up_lod0.msh",
-						name = "panto_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/rumpf_co.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_down_lod0.msh",
-						name = "panto",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_co.mtl", },
 						mesh = "vehicle/train/br151/panto_schere_up_lod0.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_co.mtl", },
@@ -151,7 +139,19 @@ return {
 						materials = { "vehicle/train/br151/rumpf_co.mtl", },
 						mesh = "vehicle/train/br151/panto_schere_up_lod0.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/rumpf_co.mtl", },
+						mesh = "vehicle/train/br151/panto_schere_down_lod0.msh",
+						name = "panto",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/rumpf_co.mtl", },
+						mesh = "vehicle/train/br151/panto_schere_up_lod0.msh",
+						name = "panto_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_co.mtl", },
