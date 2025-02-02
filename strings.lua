@@ -59,7 +59,8 @@ return {
 		["option_privatbahn_br151_desc"] = "Sollen die Lackierungen der Privatbahnen im Spiel aktiviert werden?",
 				
         ["br151_co_name"] = 	"BR 151 chromoxidgrün (1968)",
-        ["br151_co2_name"] = 	"BR 151 chromoxidgrün (1987)",
+        ["br151_co2_name"] = 	"BR 151 chromoxidgrün DB Keks himbeerrot (1987)",
+        ["br151_co3_name"] = 	"BR 151 chromoxidgrün DB AG (1994)",
 		
         ["br151_ob_name"] = 	"BR 151 ozeanblau/beige (1978)",
 		
