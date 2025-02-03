@@ -75,6 +75,12 @@ return {
         ["br151_vr4_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
         ["br151_vr5_name"] = 	"BR 151 verkehrsrot Ralion Logistics (2007)",
 		
+        ["br151_rbh_name"] = 	"BR 151 verkehrsrot RBH (2012)",
+        ["br151_rbh2_name"] = 	"BR 151 Blau/Weißaluminium RBH (2015)",
+		
+        ["br151_rpool_name"] = 	"BR 151 verkehrsrot Railpool ohne Logo (2017)",
+        ["br151_rpool_name"] = 	"BR 151 verkehrsrot Railpool mit Logo (2017)",
+		
         ["br151_vr6_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
         ["br151_vr7_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
         ["br151_vr8_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
