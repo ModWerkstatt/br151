@@ -81,6 +81,8 @@ return {
         ["br151_rpool_name"] = 	"BR 151 verkehrsrot Railpool ohne Logo (2017)",
         ["br151_rpool2_name"] = "BR 151 verkehrsrot Railpool mit Logo (2017)",
 		
+        ["br151_sri_name"] = 	"BR 151 chromoxidgrün SRI (2012)",
+		
         ["br151_vr6_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
         ["br151_vr7_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
         ["br151_vr8_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
