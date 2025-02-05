@@ -227,10 +227,15 @@ return {
 			visibleFrom = 0,
 			visibleTo = 100,
 		},
---[[
 		{
 			node = {
 				children = {
+					{
+						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
+						mesh = "vehicle/train/br151/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
 					{
 						materials = { "vehicle/train/br151/unterbau.mtl", },
 						mesh = "vehicle/train/br151/unterbau_lod1.msh",
@@ -299,21 +304,21 @@ return {
                     },
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/rumpf_lod1.msh",
-						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.041123498231173, 1, },
+						mesh = "vehicle/train/br151/panto_schere_up_lod1.msh",
+						name = "panto_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/rumpf_vr5_lod1.msh",
-						name = "rumpf_vr5_de",
+						mesh = "vehicle/train/br151/panto_schere_down_lod1.msh",
+						name = "panto",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
 						mesh = "vehicle/train/br151/panto_schere_up_lod1.msh",
 						name = "panto_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
@@ -325,31 +330,7 @@ return {
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
 						mesh = "vehicle/train/br151/panto_schere_up_lod1.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_down_lod1.msh",
-						name = "panto",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_up_lod1.msh",
-						name = "panto_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_down_lod1.msh",
-						name = "panto",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_up_lod1.msh",
-						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
@@ -373,7 +354,7 @@ return {
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
 						mesh = "vehicle/train/br151/panto_schere_up_lod1.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
@@ -383,43 +364,49 @@ return {
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_down_ch_lod1.msh",
-						name = "panto_schere_up_ch",
+						mesh = "vehicle/train/br151/panto_schere_up_lod1.msh",
+						name = "panto_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_down_ch_lod1.msh",
-						name = "panto_schere_up_ch",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						mesh = "vehicle/train/br151/licht_weiss_lod0.msh",
-						name = "panto_schere_up_ch",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
-						mesh = "vehicle/train/br151/licht_rot_lod0.msh",
-						name = "panto_schere_up_ch",
+						mesh = "vehicle/train/br151/panto_schere_down_lod1.msh",
+						name = "panto",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
 						mesh = "vehicle/train/br151/licht_weiss_lod0.msh",
-						name = "panto_schere_up_ch",
+						name = "licht_weiss_vorne",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						mesh = "vehicle/train/br151/licht_rot_lod0.msh",
+						name = "licht_rot_hinten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
+						mesh = "vehicle/train/br151/licht_weiss_lod0.msh",
+						name = "licht_weiss_hinten",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/emissive/train_all_lights.mtl", },
 						mesh = "vehicle/train/br151/licht_rot_lod0.msh",
-						name = "panto_schere_up_ch",
+						name = "licht_rot_vorne",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/innen.mtl", },
-						mesh = "vehicle/train/br151/innen_lod1.msh",
+						mesh = "vehicle/train/br151/innen_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/innen.mtl", },
+						mesh = "vehicle/train/br151/maschinenraum_lod0.msh",
 						name = "innen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -427,6 +414,18 @@ return {
 						materials = { "vehicle/train/br151/glas.mtl", },
 						mesh = "vehicle/train/br151/glas_lod0.msh",
 						name = "glas",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/unterbau.mtl", },
+						mesh = "vehicle/train/br151/kupplung_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/unterbau.mtl", },
+						mesh = "vehicle/train/br151/puffer_eckig_lod1.msh",
+						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
@@ -441,6 +440,12 @@ return {
 			node = {
 				children = {
 					{
+						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
+						mesh = "vehicle/train/br151/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
 						materials = { "vehicle/train/br151/unterbau.mtl", },
 						mesh = "vehicle/train/br151/unterbau_lod2.msh",
 						name = "unterbau",
@@ -452,23 +457,29 @@ return {
 						        materials = { "vehicle/train/br151/unterbau.mtl", },
 						        mesh = "vehicle/train/br151/drehgestell_lod2.msh",
 						        name = "drehgestell",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.76973, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/br151/unterbau.mtl", },
 						        mesh = "vehicle/train/br151/rad_lod2.msh",
 						        name = "rad",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.293181658, 0, 0.6269, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.16, 0, 0.6269, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/br151/unterbau.mtl", },
 						        mesh = "vehicle/train/br151/rad_lod2.msh",
 						        name = "rad",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.293181658, 0, 0.6269, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.18, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28, 0, 0.6269, 1, },
 					        },
                         },
 			            name = "RootNode",
-			            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.1999998092651, 0, 0, 1, },
+			            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.75, 0, 0, 1, },
                     },
                     {
                         children =  {
@@ -476,47 +487,35 @@ return {
 						        materials = { "vehicle/train/br151/unterbau.mtl", },
 						        mesh = "vehicle/train/br151/drehgestell_lod2.msh",
 						        name = "drehgestell",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.76973, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/br151/unterbau.mtl", },
 						        mesh = "vehicle/train/br151/rad_lod2.msh",
 						        name = "rad",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.293181658, 0, 0.6269, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.16, 0, 0.6269, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/br151/unterbau.mtl", },
 						        mesh = "vehicle/train/br151/rad_lod2.msh",
 						        name = "rad",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.293181658, 0, 0.6269, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.18, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28, 0, 0.6269, 1, },
 					        },
                         },
 			            name = "RootNode",
-			            transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.1999998092651, 0, 0, 1, },
+			            transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.75, 0, 0, 1, },
                     },
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/rumpf_lod2.msh",
-						name = "rumpf",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.041123498231173, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
 						mesh = "vehicle/train/br151/panto_schere_up_lod2.msh",
 						name = "panto_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_down_lod2.msh",
-						name = "panto",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_up_lod2.msh",
-						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
@@ -528,7 +527,7 @@ return {
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
 						mesh = "vehicle/train/br151/panto_schere_up_lod2.msh",
 						name = "panto_oben",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
@@ -540,7 +539,7 @@ return {
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
 						mesh = "vehicle/train/br151/panto_schere_up_lod2.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
@@ -564,7 +563,7 @@ return {
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
 						mesh = "vehicle/train/br151/panto_schere_up_lod2.msh",
 						name = "panto_oben",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
@@ -574,20 +573,32 @@ return {
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_down_ch_lod2.msh",
-						name = "panto_schere_up_ch",
+						mesh = "vehicle/train/br151/panto_schere_up_lod2.msh",
+						name = "panto_oben",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/rumpf_vr5.mtl", },
-						mesh = "vehicle/train/br151/panto_schere_down_ch_lod2.msh",
-						name = "panto_schere_up_ch",
-						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						mesh = "vehicle/train/br151/panto_schere_down_lod2.msh",
+						name = "panto",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
 						materials = { "vehicle/train/br151/innen.mtl", },
-						mesh = "vehicle/train/br151/innen_lod2.msh",
+						mesh = "vehicle/train/br151/innen_lod0.msh",
 						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/innen.mtl", },
+						mesh = "vehicle/train/br151/maschinenraum_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/unterbau.mtl", },
+						mesh = "vehicle/train/br151/puffer_eckig_lod2.msh",
+						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 				},
@@ -615,7 +626,6 @@ return {
 			visibleFrom = 700,
 			visibleTo = 1400,
 		},
-]]
 	},
 	metadata = {
 		availability = {
@@ -641,8 +651,8 @@ return {
 			runningCosts = -1,
 		},
 		railVehicle = {
-			configs = {
-				{
+            configs = {
+                {
 					axles = { "vehicle/train/br151/rad_lod0.msh", },
 					backForwardParts = { 26, 17, 18, },
 					backBackwardParts = { 28, 15, 16, },
@@ -651,26 +661,24 @@ return {
 					innerBackwardParts = { 23, 24, },
 					innerForwardParts = { 21, 22, },
 				},
---[[
 				{
 					axles = { "vehicle/train/br151/rad_lod1.msh", },
-					backBackwardParts = { 30, 14, 15, },
-					backForwardParts = { 28, 16, 17, },
-					frontBackwardParts = { 27, 18, 19, },
-					frontForwardParts = { 29, 12, 13, },
-					innerBackwardParts = { 22, 23, },
-					innerForwardParts = { 20, 21, },
+					backForwardParts = { 26, 17, 18, },
+					backBackwardParts = { 28, 15, 16, },
+					frontForwardParts = { 25, 13, 14, },
+					frontBackwardParts = { 27, 19, 20, },
+					innerBackwardParts = { 23, 24, },
+					innerForwardParts = { 21, 22, },
 				},
 				{
 					axles = { "vehicle/train/br151/rad_lod2.msh", },
-					backBackwardParts = { 13, 14, },
-					backForwardParts = { 15, 16, },
-					frontBackwardParts = { 17, 18, },
-					frontForwardParts = { 11, 12, },
-					innerBackwardParts = { 21, 22, },
-					innerForwardParts = { 19, 20, },
+					backForwardParts = { 17, 18, },
+					backBackwardParts = { 15, 16, },
+					frontForwardParts = { 13, 14, },
+					frontBackwardParts = { 19, 20, },
+					innerBackwardParts = { 23, 24, },
+					innerForwardParts = { 21, 22, },
 				},
-]]
 			},
 			engines = {
 				{
