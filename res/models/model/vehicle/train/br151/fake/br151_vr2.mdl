@@ -503,7 +503,7 @@ return {
 			},
 			soundSet = { name = "waggon_modern", },
 			topSpeed = 33.3333,
-			weight = 84,
+			weight = 118,
 		},
 		transportVehicle = {
             carrier = "RAIL",
