@@ -767,7 +767,7 @@ return {
 		},
 		br151 = {
 			fake = false,
-			vorspann = false,
+			vorspann = true,
 			privat = false,
 		},
 	},
