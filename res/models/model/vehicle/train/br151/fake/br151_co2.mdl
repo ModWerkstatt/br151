@@ -441,7 +441,7 @@ return {
 					type = "ELECTRIC",
 				},
 			},
-			soundSet = { name = "", },
+			soundSet = { name = "waggon_modern", },
 			topSpeed = 33.3333,
 			weight = 84,
 		},
