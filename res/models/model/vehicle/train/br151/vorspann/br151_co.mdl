@@ -719,7 +719,7 @@ return {
             carrier = "RAIL",
 			multipleUnitOnly = false,
             reversible = true,
-            groupFileName = "vehicle/train/br151/menu_br151_vorspann.mdl",
+            groupFileName = "vehicle/train/br151/vorspann/menu_br151_vorspann.mdl",
         },
 		seatProvider = {
             crewModels = { "characters/era_c_driver_rail.mdl" },
