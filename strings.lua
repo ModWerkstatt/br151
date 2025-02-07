@@ -43,7 +43,7 @@ return {
         ["br151_byb_name"] = 	"Class 151 chrome oxide green Bayernbahn (2018)",
 
         ["br151_rbh_name"] = 	"Class 151 traffic red RBH (2012)",
-        ["br151_rbh2_name"] = 	"Class 151 blue/white aluminium RBH (2015)",
+        ["br151_rbh2_name"] = 	"Class 151 blue/white aluminium RBH (2014)",
 
         ["br151_rpool_name"] = 	"Class 151 traffic red Railpool w/o logo (2017)",
         ["br151_rpool2_name"] = "Class 151 traffic red Railpool w/ logo (2017)",
@@ -94,7 +94,7 @@ return {
         ["br151_byb_name"] = 	"BR 151 chromoxidgrün Bayernbahn (2018)",
 
         ["br151_rbh_name"] = 	"BR 151 verkehrsrot RBH (2012)",
-        ["br151_rbh2_name"] = 	"BR 151 blau/weißaluminium RBH (2015)",
+        ["br151_rbh2_name"] = 	"BR 151 kobaltblau/weißaluminium RBH (2014)",
 
         ["br151_rpool_name"] = 	"BR 151 verkehrsrot Railpool ohne Logo (2017)",
         ["br151_rpool2_name"] = "BR 151 verkehrsrot Railpool mit Logo (2017)",
