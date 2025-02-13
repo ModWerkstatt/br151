@@ -47,8 +47,10 @@ return {
 
         ["br151_rpool_name"] = 	"Class 151 traffic red Railpool w/o logo (2017)",
         ["br151_rpool2_name"] = "Class 151 traffic red Railpool w/ logo (2017)",
+        ["br151_rpool3_name"] = "? Class 151 Railpool (xxxx)",
 
         ["br151_sri_name"] = 	"Class 151 chrome oxide green SRI (2012)",
+        ["br151_saar_name"] = 	"? Class 151 Saarrail (xxx)",
 
 	},
 	de = {
@@ -98,8 +100,10 @@ return {
 
         ["br151_rpool_name"] = 	"BR 151 verkehrsrot Railpool ohne Logo (2017)",
         ["br151_rpool2_name"] = "BR 151 verkehrsrot Railpool mit Logo (2017)",
+        ["br151_rpool3_name"] = "? BR 151 Railpool (xxxx)",
 
         ["br151_sri_name"] = 	"BR 151 chromoxidgrün SRI (2012)",
+        ["br151_saar_name"] = 	"? BR 151 Saarrail (xxx)",
 
 	},
 }
