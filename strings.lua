@@ -93,11 +93,15 @@ return {
 
         ["br151_byb_name"] = 	"BR 151 chromoxidgrün Bayernbahn (2018)",
 
+        ["br151_lomo_name"] = 	"BR 151 Streifen Blau Lokomotion (2014)",
+        ["br151_lomo2_name"] = 	"BR 151 Streifen Grün Lokomotion (2015)",
+		
         ["br151_rbh_name"] = 	"BR 151 verkehrsrot RBH (2012)",
         ["br151_rbh2_name"] = 	"BR 151 kobaltblau/weißaluminium RBH (2014)",
 
         ["br151_rpool_name"] = 	"BR 151 verkehrsrot Railpool ohne Logo (2017)",
         ["br151_rpool2_name"] = "BR 151 verkehrsrot Railpool mit Logo (2017)",
+        ["br151_rpool3_name"] = "BR 151 Weißaluminium Railpool (2019)",
 
         ["br151_sri_name"] = 	"BR 151 chromoxidgrün SRI (2012)",
 
