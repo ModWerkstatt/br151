@@ -26,7 +26,7 @@ return {
 			type = "TWOD",
 		},
 		map_metal_gloss_ao = {
-			fileName = "models/vehicle/train/br151/glas_metal_gloss_ao.dds",
+			fileName = "models/vehicle/train/br151/glas_hsl_metal_gloss_ao.dds",
 			scaleDownAllowed = false,
 			type = "TWOD",
 		},
