@@ -103,8 +103,8 @@ return {
         ["br151_rpool3_name"] = "BR 151 weißaluminium Railpool (2019)",
 
         ["br151_sri_name"] = 	"BR 151 chromoxidgrün SRI (2012)",
-        ["br151_sri2_name"] = 	"BR 151 Himmelblau SRI (2021)",
-        ["br151_sri3_name"] = 	"BR 151 Ultramarinblau SRI (2023)",
+        ["br151_sri2_name"] = 	"BR 151 himmelblau SRI (2021)",
+        ["br151_sri3_name"] = 	"BR 151 ultramarinblau SRI (2023)",
         ["br151_saar_name"] = 	"? BR 151 Saarrail (xxx)",
 
 	},
