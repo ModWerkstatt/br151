@@ -95,6 +95,8 @@ return {
 
         ["br151_byb_name"] = 	"BR 151 chromoxidgrün Bayernbahn (2018)",
 
+        ["br151_hsl_name"] = 	"BR 151 nussbraun HSL (2022)",
+		
         ["br151_rbh_name"] = 	"BR 151 verkehrsrot RBH (2012)",
         ["br151_rbh2_name"] = 	"BR 151 kobaltblau/weißaluminium RBH (2014)",
 
@@ -105,7 +107,9 @@ return {
         ["br151_sri_name"] = 	"BR 151 chromoxidgrün SRI (2012)",
         ["br151_sri2_name"] = 	"BR 151 himmelblau SRI (2021)",
         ["br151_sri3_name"] = 	"BR 151 ultramarinblau SRI (2023)",
-        ["br151_saar_name"] = 	"? BR 151 Saarrail (xxx)",
+        ["br151_saar_name"] = 	"BR 151 Saarrail (xxx)",
+		
+        ["br151_wrs_name"] = 	"BR 151 ultramarinblau WRS (2022)",
 
 	},
 }
