@@ -214,14 +214,14 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/cakv69/ak69e_verkehrsgelb.mtl", },
-						mesh = "vehicle/train/cakv69/ak69e_lod0.msh",
+						materials = { "vehicle/train/ak69e/ak69e_verkehrsgelb.mtl", },
+						mesh = "vehicle/train/ak69e/ak69e_lod0.msh",
 						name = "",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.95, 0, 1.0, 1, },
 					},
 					{
-						materials = { "vehicle/train/cakv69/ak69e_verkehrsgelb.mtl", },
-						mesh = "vehicle/train/cakv69/ak69e_lod0.msh",
+						materials = { "vehicle/train/ak69e/ak69e_verkehrsgelb.mtl", },
+						mesh = "vehicle/train/ak69e/ak69e_lod0.msh",
 						name = "",
 						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.95, 0, 1.0, 1, },
 					},
