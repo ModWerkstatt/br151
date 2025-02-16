@@ -680,6 +680,13 @@ return {
           		    innerBackwardParts = { 21, 22, }
 				},
 			},
+			engines = {
+				{
+					power = 5600,
+					tractiveEffort = 300,
+					type = "ELECTRIC",
+				},
+			},
 			soundSet = { name = "train_electric_modern", },
 			topSpeed = 33.3333,
 			weight = 118,
