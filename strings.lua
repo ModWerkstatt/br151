@@ -107,7 +107,10 @@ return {
         ["br151_sri_name"] = 	"BR 151 chromoxidgrün SRI (2012)",
         ["br151_sri2_name"] = 	"BR 151 himmelblau SRI (2021)",
         ["br151_sri3_name"] = 	"BR 151 ultramarinblau SRI (2023)",
-        ["br151_saar_name"] = 	"BR 151 Saarrail (xxx)",
+		
+        ["br151_saar_name"] = 	"BR 151 Saarrail (2017)",
+		
+        ["br151_tft_name"] = 	"BR 151 ozeanblau/beige Train4Train (2023)",
 		
         ["br151_wrs_name"] = 	"BR 151 ultramarinblau WRS (2022)",
 
