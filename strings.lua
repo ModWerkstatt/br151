@@ -76,12 +76,16 @@ return {
 		["br151_privatbahn"] = "Privatbahn Lackierungen aktivieren?",
 		["option_privatbahn_br151_desc"] = "Sollen die Lackierungen der Privatbahnen im Spiel aktiviert werden?",
 
-        ["br151_co_name"] = 	"BR 151 chromoxidgrün (1968)",
+        ["br151_co_name"] = 	"BR 151 chromoxidgrün DB (1968)",
         ["br151_co2_name"] = 	"BR 151 chromoxidgrün DB Keks rot (1987)",
         ["br151_co3_name"] = 	"BR 151 chromoxidgrün DB AG (1994)",
-        ["br151_ob_name"] = 	"BR 151 ozeanblau/beige (1978)",
+        ["br151_ob_name"] = 	"BR 151 ozeanblau/beige DB (1978)",
         ["br151_ob2_name"] = 	"BR 151 ozeanblau/beige DB Keks rot (1987)",
         ["br151_ob3_name"] = 	"BR 151 ozeanblau/beige DB AG (1994)",
+        ["br151_ob4_name"] = 	"BR 151 ozeanblau/beige DB Ak69e (1978)",
+        ["br151_ob5_name"] = 	"BR 151 ozeanblau/beige 2 DB Ak96e (1978)",
+        ["br151_ob6_name"] = 	"BR 151 ozeanblau/beige DB AG Ak69e (1994)",
+        ["br151_ob7_name"] = 	"BR 151 ozeanblau/beige 2 DB AG Ak69e (1994)",
         ["br151_or_name"] = 	"BR 151 orientrot (1987)",
         ["br151_or2_name"] = 	"BR 151 orientrot 2 (1987)",
         ["br151_or3_name"] = 	"BR 151 orientrot DB AG (1994)",
@@ -92,26 +96,24 @@ return {
         ["br151_vr3_name"] = 	"BR 151 verkehrsrot DB Cargo (1999)",
         ["br151_vr4_name"] = 	"BR 151 verkehrsrot Ralion (2003)",
         ["br151_vr5_name"] = 	"BR 151 verkehrsrot Ralion Logistics (2007)",
+		
+        ["br151_vr6_name"] = 	"BR 151 verkehrsrot DB AG Ak69e (1998)",
+        ["br151_vr7_name"] = 	"BR 151 verkehrsrot DB AG Ak69e mit UIC Nummer (2009)",
+        ["br151_vr8_name"] = 	"BR 151 verkehrsrot Ralion Ak69e (2003)",
+        ["br151_vr9_name"] = 	"BR 151 verkehrsrot DB AG Ak69e (2015)",
 
         ["br151_byb_name"] = 	"BR 151 chromoxidgrün Bayernbahn (2018)",
-
-        ["br151_hsl_name"] = 	"BR 151 nussbraun HSL (2022)",
-		
+        ["br151_hsl_name"] = 	"BR 151 nussbraun HSL (2022)",		
         ["br151_rbh_name"] = 	"BR 151 verkehrsrot RBH (2012)",
         ["br151_rbh2_name"] = 	"BR 151 kobaltblau/weißaluminium RBH (2014)",
-
         ["br151_rpool_name"] = 	"BR 151 verkehrsrot Railpool ohne Logo (2017)",
         ["br151_rpool2_name"] = "BR 151 verkehrsrot Railpool mit Logo (2017)",
         ["br151_rpool3_name"] = "BR 151 weißaluminium Railpool (2019)",
-
         ["br151_sri_name"] = 	"BR 151 chromoxidgrün SRI (2012)",
         ["br151_sri2_name"] = 	"BR 151 himmelblau SRI (2021)",
-        ["br151_sri3_name"] = 	"BR 151 ultramarinblau SRI (2023)",
-		
-        ["br151_saar_name"] = 	"BR 151 Saarrail (2017)",
-		
-        ["br151_tft_name"] = 	"BR 151 ozeanblau/beige Train4Train (2023)",
-		
+        ["br151_sri3_name"] = 	"BR 151 ultramarinblau SRI (2023)",		
+        ["br151_saar_name"] = 	"BR 151 Saarrail (2017)",		
+        ["br151_tft_name"] = 	"BR 151 ozeanblau/beige Train4Train (2023)",		
         ["br151_wrs_name"] = 	"BR 151 ultramarinblau WRS (2022)",
 
 	},
