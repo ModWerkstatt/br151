@@ -1,0 +1,479 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 9.63019, 1.555, 5.9, },
+		bbMin = { -9.63019, -1.555, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 0, 0, 0, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br151/rumpf_ob4.mtl", },
+						mesh = "vehicle/train/br151/rumpf_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/unterbau.mtl", },
+						mesh = "vehicle/train/br151/unterbau_lod0.msh",
+						name = "unterbau",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+                        children =  {
+        					{
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/drehgestell_lod0.msh",
+						        name = "drehgestell",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.16, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.18, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28, 0, 0.6269, 1, },
+					        },
+                        },
+			            name = "RootNode",
+			            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.75, 0, 0, 1, },
+                    },
+                    {
+                        children =  {
+        					{
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/drehgestell_lod0.msh",
+						        name = "drehgestell",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.16, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.18, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28, 0, 0.6269, 1, },
+					        },
+                        },
+			            name = "RootNode",
+			            transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.75, 0, 0, 1, },
+                    },
+					{
+						materials = { "vehicle/train/br151/rumpf_ob4.mtl", },
+						mesh = "vehicle/train/br151/panto_schere_down_lod0.msh",
+						name = "panto",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/rumpf_ob4.mtl", },
+						mesh = "vehicle/train/br151/panto_schere_down_lod0.msh",
+						name = "panto",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/innen.mtl", },
+						mesh = "vehicle/train/br151/innen_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/innen.mtl", },
+						mesh = "vehicle/train/br151/maschinenraum_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/glas.mtl", },
+						mesh = "vehicle/train/br151/glas_lod0.msh",
+						name = "glas",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/glas_licht.mtl", },
+						mesh = "vehicle/train/br151/glas_licht_lod0.msh",
+						name = "glas",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/unterbau.mtl", },
+						mesh = "vehicle/train/br151/kupplung_cakv_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ak69e/ak69e_verkehrsgelb.mtl", },
+						mesh = "vehicle/train/ak69e/ak69e_lod0.msh",
+						name = "",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.95, 0, 1.0, 1, },
+					},
+					{
+						materials = { "vehicle/train/ak69e/ak69e_verkehrsgelb.mtl", },
+						mesh = "vehicle/train/ak69e/ak69e_lod0.msh",
+						name = "",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 8.95, 0, 1.0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/unterbau.mtl", },
+						mesh = "vehicle/train/br151/puffer_rund_lod0.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 100,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br151/rumpf_ob4.mtl", },
+						mesh = "vehicle/train/br151/rumpf_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/unterbau.mtl", },
+						mesh = "vehicle/train/br151/unterbau_lod1.msh",
+						name = "unterbau",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+                        children =  {
+        					{
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/drehgestell_lod1.msh",
+						        name = "drehgestell",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.16, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.18, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28, 0, 0.6269, 1, },
+					        },
+                        },
+			            name = "RootNode",
+			            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.75, 0, 0, 1, },
+                    },
+                    {
+                        children =  {
+        					{
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/drehgestell_lod1.msh",
+						        name = "drehgestell",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.16, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.18, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28, 0, 0.6269, 1, },
+					        },
+                        },
+			            name = "RootNode",
+			            transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.75, 0, 0, 1, },
+                    },
+					{
+						materials = { "vehicle/train/br151/rumpf_ob4.mtl", },
+						mesh = "vehicle/train/br151/panto_schere_down_lod1.msh",
+						name = "panto",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/rumpf_ob4.mtl", },
+						mesh = "vehicle/train/br151/panto_schere_down_lod1.msh",
+						name = "panto",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/innen.mtl", },
+						mesh = "vehicle/train/br151/innen_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/innen.mtl", },
+						mesh = "vehicle/train/br151/maschinenraum_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/glas.mtl", },
+						mesh = "vehicle/train/br151/glas_lod0.msh",
+						name = "glas",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/unterbau.mtl", },
+						mesh = "vehicle/train/br151/kupplung_cakv_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/unterbau.mtl", },
+						mesh = "vehicle/train/br151/puffer_rund_lod1.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 300,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br151/rumpf_ob4.mtl", },
+						mesh = "vehicle/train/br151/rumpf_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/unterbau.mtl", },
+						mesh = "vehicle/train/br151/unterbau_lod2.msh",
+						name = "unterbau",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+                        children =  {
+        					{
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/drehgestell_lod2.msh",
+						        name = "drehgestell",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.16, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.18, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28, 0, 0.6269, 1, },
+					        },
+                        },
+			            name = "RootNode",
+			            transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.75, 0, 0, 1, },
+                    },
+                    {
+                        children =  {
+        					{
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/drehgestell_lod2.msh",
+						        name = "drehgestell",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.16, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.18, 0, 0.6269, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/br151/unterbau.mtl", },
+						        mesh = "vehicle/train/br151/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.28, 0, 0.6269, 1, },
+					        },
+                        },
+			            name = "RootNode",
+			            transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.75, 0, 0, 1, },
+                    },
+					{
+						materials = { "vehicle/train/br151/rumpf_ob4.mtl", },
+						mesh = "vehicle/train/br151/panto_schere_down_lod2.msh",
+						name = "panto",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/rumpf_ob4.mtl", },
+						mesh = "vehicle/train/br151/panto_schere_down_lod2.msh",
+						name = "panto",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/innen.mtl", },
+						mesh = "vehicle/train/br151/innen_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/innen.mtl", },
+						mesh = "vehicle/train/br151/maschinenraum_lod0.msh",
+						name = "innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/train/br151/unterbau.mtl", },
+						mesh = "vehicle/train/br151/puffer_rund_lod2.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 300,
+			visibleTo = 700,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/train/br151/rumpf_ob4.mtl", },
+						mesh = "vehicle/train/br151/rumpf_lod3.msh",
+						name = "rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.041123498231173, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 700,
+			visibleTo = 1400,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1977,
+			yearTo = 1994,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("br151_ob4_ak69e_name"),
+			description = _("br151_desc"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+				{
+					axles = { "vehicle/train/br151/rad_lod0.msh", },
+				},
+				{
+					axles = { "vehicle/train/br151/rad_lod1.msh", },
+				},
+				{
+					axles = { "vehicle/train/br151/rad_lod2.msh", },
+				},
+			},
+			engines = {
+				{
+					power = 5600,
+					tractiveEffort = 25,
+					type = "ELECTRIC",
+				},
+			},
+			soundSet = { name = "waggon_modern", },
+			topSpeed = 33.3333,
+			weight = 118,
+		},
+		transportVehicle = {
+            carrier = "RAIL",
+			multipleUnitOnly = false,
+            reversible = true,
+            groupFileName = "vehicle/train/br151/fake/menu_br151_fake.mdl",
+        },
+		seatProvider = {
+            crewModels = { "characters/era_c_driver_rail.mdl" },
+		    drivingLicense = "RAIL",
+		    seats = { },
+		},
+		br151 = {
+			fake = true,
+			vorspann = false,
+			privat = false,
+		},
+	},
+	version = 1,
+}
+end
