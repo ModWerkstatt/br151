@@ -106,12 +106,6 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br151/innen.mtl", },
-						mesh = "vehicle/train/br151/maschinenraum_lod0.msh",
-						name = "innen",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
 						materials = { "vehicle/train/br151/glas.mtl", },
 						mesh = "vehicle/train/br151/glas_lod0.msh",
 						name = "glas",
@@ -238,13 +232,7 @@ return {
 					},
 					{
 						materials = { "vehicle/train/br151/innen.mtl", },
-						mesh = "vehicle/train/br151/innen_lod0.msh",
-						name = "innen",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/innen.mtl", },
-						mesh = "vehicle/train/br151/maschinenraum_lod0.msh",
+						mesh = "vehicle/train/br151/innen_lod1.msh",
 						name = "innen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -363,13 +351,7 @@ return {
 					},
 					{
 						materials = { "vehicle/train/br151/innen.mtl", },
-						mesh = "vehicle/train/br151/innen_lod0.msh",
-						name = "innen",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-					},
-					{
-						materials = { "vehicle/train/br151/innen.mtl", },
-						mesh = "vehicle/train/br151/maschinenraum_lod0.msh",
+						mesh = "vehicle/train/br151/innen_lod2.msh",
 						name = "innen",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
