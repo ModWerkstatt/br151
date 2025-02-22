@@ -61,10 +61,10 @@ return {
         ["br151_saar_name"] = 	"Class 151 Saarrail (2017)",
         ["br151_tft_name"] = 	"Class 151 ozeanblau/beige Train4Train (2023)",
         ["br151_wrs_name"] = 	"Class 151 ultramarinblau WRS (2022)",
-        ["br151_egp_name"] = 	"?Class 151 EGP (xxx)",
-        ["br151_hector_name"] = "?Class 151 Hectorrail (xxx)",
-        ["br151_lomo_name"] = 	"?Class 151 Locomotion (xxx)",
-        ["br151_lomo2_name"] = 	"?Class 151 Locomotion (xxx)",
+        ["br151_egp_name"] = 	"?Class 151 EGP (2018)",
+        ["br151_hector_name"] = "?Class 151 Hectorrail (2019)",
+        ["br151_lomo_name"] = 	"?Class 151 Locomotion (2014)",
+        ["br151_lomo2_name"] = 	"?Class 151 Locomotion (2015)",
 
 	},
 	de = {
@@ -128,10 +128,10 @@ return {
         ["br151_saar_name"] = 	"BR 151 Saarrail (2017)",
         ["br151_tft_name"] = 	"BR 151 ozeanblau/beige Train4Train (2023)",
         ["br151_wrs_name"] = 	"BR 151 ultramarinblau WRS (2022)",
-        ["br151_egp_name"] = 	"?BR 151 EGP (xxx)",
-        ["br151_hector_name"] = "?BR 151 Hectorrail (xxx)",
-        ["br151_lomo_name"] = 	"?BR 151 Locomotion (xxx)",
-        ["br151_lomo2_name"] = 	"?BR 151 Locomotion (xxx)",
+        ["br151_egp_name"] = 	"?BR 151 EGP (2018)",
+        ["br151_hector_name"] = "?BR 151 Hectorrail (2019)",
+        ["br151_lomo_name"] = 	"?BR 151 Locomotion (2014)",
+        ["br151_lomo2_name"] = 	"?BR 151 Locomotion (2015)",
 
 	},
 }
