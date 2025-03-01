@@ -23,7 +23,7 @@ return {
 	    ["br151_privatbahn"] = "Activate private liveries?",
 	    ["option_privatbahn_br151_desc"] = "Should the private liveries of all classes are activated in the game?",
 
-		["br151_co_name"] = 	"Class 151 chrome oxide green (1968)",
+		["br151_co_name"] = 	"Class 151 chrome oxide green (1974)",
         ["br151_co2_name"] = 	"Class 151 chrome oxide green DB emblem red (1987)",
         ["br151_co3_name"] = 	"Class 151 chrome oxide green DB AG (1994)",
         ["br151_ob_name"] = 	"Class 151 turquoise/cream (1978)",
@@ -90,7 +90,7 @@ return {
 		["br151_privatbahn"] = "Privatbahn Lackierungen aktivieren?",
 		["option_privatbahn_br151_desc"] = "Sollen die Lackierungen der Privatbahnen im Spiel aktiviert werden?",
 
-        ["br151_co_name"] = 	"BR 151 chromoxidgrün DB (1968)",
+        ["br151_co_name"] = 	"BR 151 chromoxidgrün DB (1974)",
         ["br151_co2_name"] = 	"BR 151 chromoxidgrün DB Keks rot (1987)",
         ["br151_co3_name"] = 	"BR 151 chromoxidgrün DB AG (1994)",
         ["br151_ob_name"] = 	"BR 151 ozeanblau/beige DB (1978)",
@@ -132,6 +132,15 @@ return {
         ["br151_hector_name"] = "?BR 151 Hectorrail (2019)",
         ["br151_lomo_name"] = 	"?BR 151 Locomotion (2014)",
         ["br151_lomo2_name"] = 	"?BR 151 Locomotion (2015)",
+		
+		
+        ["br151_vorserie_co_name"] = 	"BR 151 001 chromoxidgrün DB (1972)",
+        ["br151_vorserie_co2_name"] = 	"BR 151 001 chromoxidgrün DB (1983)",
+        ["br151_vorserie_or_name"] = 	"BR 151 001 orientrot (1995)",
+        ["br151_vorserie_vr_name"] = 	"BR 151 001 verkehrsrot DB AG (2003)",
+        ["br151_vorserie_vr_name"] = 	"BR 151 001 verkehrsrot DB AG mit UIC Nummer (2009)",
+		
+        ["br151_vorserie_byb_name"] = 	"BR 151 001 chromoxidgrün Bayernbahn (2023)",
 
 	},
 }
