@@ -130,7 +130,7 @@ return {
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{
-						materials = { "vehicle/train/br151/rumpf_sri1.mtl", },
+						materials = { "vehicle/train/br151/rumpf_sri.mtl", },
 						mesh = "vehicle/train/br151/griffe_alt_lod0.msh",
 						name = "Griffe",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },

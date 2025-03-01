@@ -17,7 +17,7 @@ return {
 				children = {
 					{
 						materials = { "vehicle/train/br151/rumpf_hector.mtl", },
-						mesh = "vehicle/train/br151/rumpf_lod0.msh",
+						mesh = "vehicle/train/br151/rumpf_led_lod0.msh",
 						name = "rumpf",
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
@@ -389,7 +389,7 @@ return {
 	},
 	metadata = {
 		availability = {
-			yearFrom = 2019,
+			yearFrom = 2015,
 		},
 		cost = {
 			price = -1,
