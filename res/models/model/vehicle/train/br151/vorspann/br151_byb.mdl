@@ -706,8 +706,8 @@ return {
 		},
 		br151 = {
 			fake = false,
-			vorspann = false,
-			privat = false,
+			vorspann = true,
+			privat = true,
 		},
 	},
 	version = 1,

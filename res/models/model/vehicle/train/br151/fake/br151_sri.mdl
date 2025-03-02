@@ -445,7 +445,7 @@ return {
 		br151 = {
 			fake = true,
 			vorspann = false,
-			privat = false,
+			privat = true,
 		},
 	},
 	version = 1,

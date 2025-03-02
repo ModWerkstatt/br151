@@ -138,7 +138,6 @@ return {
         ["br151_vorserie_co2_name"] = 	"BR 151 001 chromoxidgrün DB (1983)",
         ["br151_vorserie_or_name"] = 	"BR 151 001 orientrot (1995)",
         ["br151_vorserie_vr_name"] = 	"BR 151 001 verkehrsrot DB AG (2003)",
-        ["br151_vorserie_vr_name"] = 	"BR 151 001 verkehrsrot DB AG mit UIC Nummer (2009)",
 		
         ["br151_vorserie_byb_name"] = 	"BR 151 001 chromoxidgrün Bayernbahn (2023)",
 
