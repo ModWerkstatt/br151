@@ -442,7 +442,7 @@ return {
             carrier = "RAIL",
 			multipleUnitOnly = false,
             reversible = true,
-            groupFileName = "vehicle/train/br151/menu_br151.mdl",
+            groupFileName = "vehicle/train/br151/fake/menu_br151_fake.mdl",
         },
 		seatProvider = {
             crewModels = { "characters/era_c_driver_rail.mdl" },
