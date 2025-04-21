@@ -52,6 +52,7 @@ return {
 
         ["br151_rbh_name"] = 	"Class 151 traffic red RBH (2012)",
         ["br151_rbh2_name"] = 	"Class 151 blue/white aluminium RBH (2014)",
+        ["br151_rp_name"] = 	"Class 151 blue/white aluminium Railsystems (2020)",
 
         ["br151_rpool_name"] = 	"Class 151 traffic red Railpool w/o logo (2017)",
         ["br151_rpool2_name"] = "Class 151 traffic red Railpool w/ logo (2017)",
@@ -119,6 +120,7 @@ return {
         ["br151_hsl_name"] = 	"BR 151 nussbraun HSL (2022)",
         ["br151_rbh_name"] = 	"BR 151 verkehrsrot RBH (2012)",
         ["br151_rbh2_name"] = 	"BR 151 kobaltblau/weißaluminium RBH (2014)",
+        ["br151_rp_name"] = 	"BR 151 kobaltblau/weißaluminium Railsystems (2020)",
         ["br151_rpool_name"] = 	"BR 151 verkehrsrot Railpool ohne Logo (2017)",
         ["br151_rpool2_name"] = "BR 151 verkehrsrot Railpool mit Logo (2017)",
         ["br151_rpool3_name"] = "BR 151 weißaluminium Railpool (2019)",
