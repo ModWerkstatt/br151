@@ -398,7 +398,7 @@ return {
 			yearFrom = 2020,
 		},
 		cost = {
-			price = -1,
+			price = 0,
 			priceScale = 1,
 		},
 		description = {
@@ -429,8 +429,8 @@ return {
 			},
 			engines = {
 				{
-					power = 5600,
-					tractiveEffort = 300,
+					power = 600,
+					tractiveEffort = 30,
 					type = "ELECTRIC",
 				},
 			},

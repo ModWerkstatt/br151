@@ -392,7 +392,7 @@ return {
 			yearFrom = 2018,
 		},
 		cost = {
-			price = -1,
+			price = 0,
 			priceScale = 1,
 		},
 		description = {
@@ -423,7 +423,7 @@ return {
 			},
 			engines = {
 				{
-					power = 5600,
+					power = 600,
 					tractiveEffort = 25,
 					type = "ELECTRIC",
 				},
