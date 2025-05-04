@@ -626,7 +626,7 @@ return {
 		},
 		description = {
 			name = _("br151_vr_name"),
-			description = _("br151_desc"),
+			description = _("br151_vr_desc"),
 		},
 		emission = {
 			idleEmission = -1,

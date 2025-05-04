@@ -650,7 +650,7 @@ return {
 		},
 		description = {
 			name = _("br151_vorserie_co2_name"),
-			description = _("br151_desc"),
+			description = _("br151_vorserie_desc"),
 		},
 		emission = {
 			idleEmission = -1,

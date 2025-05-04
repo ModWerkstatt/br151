@@ -75,6 +75,20 @@ return {
 
         ["br151_vorserie_byb_name"] = 	"BR 151 001 chrome oxide green Bayernbahn (2023)",
 
+        ["br151_gs_desc"] = "The first locomotives of the series were delivered in the current color scheme for electric locomotives up to 120 km / h chrome oxide green. These kept many machines until they were repainted in orient red or even traffic red. They spent an average of 23 years with this color scheme.",
+        ["br151_gs_DBAG_desc"] = "When Deutsche Bahn AG was founded, a large number of 151 were still chrome oxide green in their original paintwork, although there were already two new color schemes. Therefore, the locomotives were simply made fit with a sticker with the new DB AG logo. The last green locomotive was only repainted in 2008.",
+		["br151_ob_desc"] = "Only three locomotives of the series were delivered in ocean blue-beige. Another was only given this paint in 1987, after the Orient Red color scheme had already been officially introduced and the ocean blue paint was out of date.",
+		["br151_or_desc"] = "Orient red machines were only available from 1990, so the 151 series received the product colors very late. Most of the machines were still in green until the late 1990s.",
+        ["br151_or_DBAG_desc"] = "With the change to Deutsche Bahn AG, the 151s were gradually repainted in orient red, at least everyone received the new DB AG logo as a sticker.",
+		["br151_vr_desc"] = "A machine was already painted traffic red in 1994 when the color scheme was not officially available. All other locomotives received the current color scheme from 1997 and were only repainted after being sold to private railway companies.",
+        ["br151_railion_desc"] = "Railion GmbH was founded in the goods business from the merger of DB and Nederlandse Spoorwegen (NS). The machines were given a design based on the traffic red scheme with the Railion lettering.",
+        ["br151_logistics_desc"] = "In 2005, the Railion logo was replaced by a modernized version with the addition of DB Logistics. This was also passed on to the locomotives accordingly.",
+        ["br151_dbcargo_desc"] = "In 2009 the former company Railion GmbH became DB Cargo AG. Accordingly, the remaining locomotives of the 151 series were painted in the appropriate scheme.",
+        ["br151_privat_desc"] = "After the locomotives were allowed to be sold from 2016, various private railways acquired stocks of the class 151. Some are still in active service, some are kept as spare parts donors and many have already been scrapped.",
+        ["br151_AK69e_desc"] = "Class 151 locomotive with AK69e coupler. This is a centre buffer coupling that permits considerably higher tractive forces than the conventional screw couplings. Some locomotives have been fitted with this since 1976. These were used by DB Cargo for ore transport until they were replaced by the class 189.",
+        ["br151_vorserie_desc"] = "The first 10 locomotives belonged to the pre-series, whereby the 001 was still somewhat different. It differs, for example, in the arrangement of the engine room windows, different steps and a slightly lower third headlight.",
+        ["br151_abschiedsfahrt_desc"] = "To mark the departure of the \"rocking horse\" in June 2024, Railpool gave the locomotive a special livery.",
+
 	},
 	de = {
 
@@ -151,6 +165,20 @@ return {
         ["br151_vorserie_vr_name"] = 	"BR 151 001 verkehrsrot DB AG (2003)",
 
         ["br151_vorserie_byb_name"] = 	"BR 151 001 chromoxidgrün Bayernbahn (2023)",
+
+        ["br151_co_desc"] = "Die ersten Loks der Baureihe wurden noch im zu der Zeit aktuellen Farbschema für E-Loks bis 120 km/h chromoxidgrün abgeliefert. Diese behielten viele Maschinen bis sie in orientrot oder sogar erst verkehrsrot umlackiert wurden. Durchschnittlich waren sie 23 Jahre mit dieser Farbgebung unterwegs.",
+        ["br151_co_DBAG_desc"] = "Bei Gründung der Deutschen Bahn AG waren noch zahlreiche 151 in ihrer Ursprungslackierung chromoxidgrün unterwegs, obwohl es schon zwei neue Farbschemata gab. Daher wurden die Loks einfach mit einem Aufkleber mit dem neuen Logo der DB AG fit gemacht. Die letzte grüne Lok wurde erst 2008 umlackiert.",
+		["br151_ob_desc"] = "Einige Loks der Baureihe wurden bereits in ozeanblau-beige abgeliefert. Eine weitere erhielt erst 1987 dieses Lackierung, nachdem schon das orientrote Farbschema offiziell eingeführt worden und somit die ozeanblaue Lackierung veraltet war.",
+		["br151_or_desc"] = "Orientrote Maschinen gab es erst ab 1990, damit erhielt die Baureihe 151 sehr spät die Produktfarben. Die meisten Maschinen waren bis Ende der 1990er Jahre noch in grün unterwegs.",
+        ["br151_or_DBAG_desc"] = "Mit dem Wechsel auf Deutsche Bahn AG wurden auch die 151er langsam vermehrt in orientrot umlackiert, zumindest erhielten alle das neue DB AG Logo als Aufkleber.",
+		["br151_vr_desc"] = "Eine Maschine wurde bereit 1994 in verkehrsrot lackiert, als es das Farbschema offiziell noch gar nicht gab. Alle anderen Loks erhielten ab 1997 das derzeit aktuelle Farbkleid und wurden erst nach dem Verkauf an private Bahngesellschaften wieder umlackiert.",
+        ["br151_railion_desc"] = "Aus dem Zusammenschluß von DB und Nederlandse Spoorwegen (NS) wurde im Gütergeschäft die Railion GmbH gegründet. Die Maschinen erhielten einen an das verkehrsrote Schema angelehntes Design mit derm Railion Schriftzug.",
+        ["br151_logistics_desc"] = "Im Jahr 2005 wurde der Railion Schriftzug ausgetauscht gegen eine modernisierte Version mit dem Zusatz DB Logistics. Auch das wurde an die Loks entsprechend weitergegeben.",
+        ["br151_dbcargo_desc"] = "Aus der bisherigen Gesellschaft Railion GmbH wurde im Jahr 2009 die DB Cargo AG. Dementsprechend erhielten die verbliebenen Loks der Baureihe 151 eine Lackierung im passenden Schema.",
+        ["br151_privat_desc"] = "Nachdem die Loks ab 2016 verkauft werden durften, haben verschiedene Privatbahnen Bestände der Baureihe 151 erworben. Einige befinden sich noch im aktiven Einsatz, einige sind als Ersatzteilspender vorgehalten und viele wurden schon verschrottet.",
+        ["br151_ak69e_desc"] = "Lok der Baureihe 151 mit AK69e-Kupplung. Dies ist eine Mittelpufferkupplung, die wesentlich höhere Zugkräfte zuläßt als die herkömmlichen Schraubenkupplungen. Seit 1976 wurden einige Loks damit ausgerüstet. Diese werden bis zur Ablösung durch BR 189 bei DB Cargo für Erztransporten eingesetzt.",
+        ["br151_vorserie_desc"] = "Die ersten 10 Loks gehörten zur Vorserie, wobei die 001 noch etwas anders war. Sie unterscheidet sich z.B. in der Anordnung der Maschinenraumfenster, anderer Trittstufen und einem etwas tiefer liegendem dritten Spitzenlicht.",
+        ["br151_abschiedsfahrt_desc"] = "Zur Verabschiedung des \"Schaukelpferds\" im Juni 2024 gab es eine Sonderlackierung von Railpool, mit der die Lok unterwegs war.",
 
 	},
 }

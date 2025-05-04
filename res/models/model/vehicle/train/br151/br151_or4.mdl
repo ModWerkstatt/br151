@@ -626,7 +626,7 @@ return {
 		},
 		description = {
 			name = _("br151_or4_name"),
-			description = _("br151_desc"),
+			description = _("br151_or_DBAG_desc"),
 		},
 		emission = {
 			idleEmission = -1,
