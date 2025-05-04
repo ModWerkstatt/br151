@@ -15,7 +15,7 @@ return {
         ['fake'] = 'Fake - ',
 
         ["br151_vorspann"] = "Active lead engines?",
-        ["option_vorspann_br151_desc"] = "Active the lead engines (bottle green front panto raised)?",
+        ["option_vorspann_br151_desc"] = "Active the lead engines (front panto raised)?",
 
         ["br151_fake"] = "Active fake engines?",
         ["option_fake_br151_desc"] = "Active the fake engines (pantos down, no light, no driver)?",
@@ -60,12 +60,20 @@ return {
 
         ["br151_sri_name"] = 	"Class 151 chrome oxide green SRI (2012)",
         ["br151_saar_name"] = 	"Class 151 Saarrail (2017)",
-        ["br151_tft_name"] = 	"Class 151 ozeanblau/beige Train4Train (2023)",
-        ["br151_wrs_name"] = 	"Class 151 ultramarinblau WRS (2022)",
+        ["br151_tft_name"] = 	"Class 151 turquoise/cream Train4Train (2023)",
+        ["br151_wrs_name"] = 	"Class 151 ultramarine blue WRS (2022)",
         ["br151_egp_name"] = 	"?Class 151 EGP (2018)",
         ["br151_hector_name"] = "?Class 151 Hectorrail (2019)",
         ["br151_lomo_name"] = 	"?Class 151 Locomotion (2014)",
         ["br151_lomo2_name"] = 	"?Class 151 Locomotion (2015)",
+        ["br151_abschiedsfahrt_name"] = "BR 151 Farewell trip (tri-color) (2024)",
+
+        ["br151_vorserie_co_name"] = 	"BR 151 001 chrome oxide green DB (1972)",
+        ["br151_vorserie_co2_name"] = 	"BR 151 001 chrome oxide green DB (1983)",
+        ["br151_vorserie_or_name"] = 	"BR 151 001 orient red (1995)",
+        ["br151_vorserie_vr_name"] = 	"BR 151 001 traffic red DB AG (2003)",
+
+        ["br151_vorserie_byb_name"] = 	"BR 151 001 chrome oxide green Bayernbahn (2023)",
 
 	},
 	de = {
@@ -134,13 +142,14 @@ return {
         ["br151_hector_name"] = "BR 151 basaltgrau Hectorrail (2019)",
         ["br151_lomo_name"] = 	"BR 151 lichtgrau Locomotion (2014)",
         ["br151_lomo2_name"] = 	"BR 151 lichtgrau Locomotion (2015)",
-		
-		
+        ["br151_abschiedsfahrt_name"] = "BR 151 Abschiedsfahrt (dreifarbig) (2024)",
+
+
         ["br151_vorserie_co_name"] = 	"BR 151 001 chromoxidgrün DB (1972)",
         ["br151_vorserie_co2_name"] = 	"BR 151 001 chromoxidgrün DB (1983)",
         ["br151_vorserie_or_name"] = 	"BR 151 001 orientrot (1995)",
         ["br151_vorserie_vr_name"] = 	"BR 151 001 verkehrsrot DB AG (2003)",
-		
+
         ["br151_vorserie_byb_name"] = 	"BR 151 001 chromoxidgrün Bayernbahn (2023)",
 
 	},
