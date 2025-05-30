@@ -14,7 +14,7 @@ return {
 			alphaThreshold = 0.5,
 			cutout = false,
 			disableDepthAndNormalWrite = false,
-			sorted = false,
+			sorted = true,
 		},
 		fade_out_range = {
 			fadeOutEndDist = 20000,
